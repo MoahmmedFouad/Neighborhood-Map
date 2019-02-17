@@ -1,0 +1,73 @@
+/* style of Application */
+*
+{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+/*style of Body*/
+body
+{
+    background-image:url(../Images/back.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*style of searchIcon */
+.searchIcon .search input{
+    height: 50px;
+    border: solid 3px;
+    border-radius: 15px;
+    padding: 20px;
+    color: #686868;
+    font-family: serif;
+    font-size: 23px;
+}
+.searchIcon .search input:hover{
+  background-color:white;
+}
+
+/*style of searchIcon */
+.application {
+    display: flex;
+    width: 100%;
+}
+.application .map{
+    height: 662px;
+    flex-grow:4;
+}
+.application .locationsList{
+    height: 662px;
+    background-image:url(../Images/images1.jpg);
+    overflow: hidden;
+    flex-grow:1;
+    border: solid 3px ;
+    border-radius: 20px;
+    padding-right:10px;
+    color: white;
+    text-align: center;
+}
+.application .locationsList .list{
+    list-style: none;
+    color: white;
+    
+}
+.application .locationsList .list .place{
+    border: solid 2px white;
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 4px;
+    margin-left: -30px;
+    cursor: pointer;
+}
+.application .locationsList .list .place:hover{
+    background-color: brown;
+}
+.map{
+    border: none;
+    border-radius: 20px;
+}
+
+

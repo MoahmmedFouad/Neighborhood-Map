@@ -1,0 +1,38 @@
+/*style to make responsive design */
+
+/*Mobile Window*/
+@media (max-width:767px) {
+    .application{
+        display: grid;
+    }
+    .application .map{
+        width: 100%;
+    }
+    .application .locationsList , .searchIcon .search input{
+        width: 100%;
+    }
+}
+
+
+@media (min-width:768px) {
+    .container {
+        width: 780px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        width: 1000px;
+    }
+}
+@media (min-width:1200px)
+{
+    .container {
+        width: 1200px;
+    }
+}
+
+.container {
+    margin: auto;
+    max-width: 100%;
+}
